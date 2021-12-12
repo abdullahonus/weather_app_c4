@@ -1,5 +1,9 @@
 // ignore_for_file: deprecated_member_use, camel_case_types, prefer_const_constructors, unnecessary_null_comparison, prefer_if_null_operators, prefer_final_fields, unnecessary_new, duplicate_ignore, file_names, import_of_legacy_library_into_null_safe, unnecessary_string_interpolations
 
+////////////////////////////////////////////
+  ///follor For more ig: @Countrol4offical
+  ///@countrolfour@gmail.com
+////////////////////////////////////////////
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:weather_app_c4/apfile.dart' as util;
@@ -77,10 +81,7 @@ class _climateState extends State<climate> {
     );
   }
 
-////////////////////////////////////////////
-  ///follor For more ig: @Countrol4offical
-  ///@countrolfour@gmail.com
-////////////////////////////////////////////
+
   Future<Map> getweather(String apiId, String city) async {
     var apiUrl =
         'http://api.openweathermap.org/data/2.5/weather?q=$city&appid=$apiId&units=imperial';
