@@ -60,7 +60,7 @@ class _climateState extends State<climate> {
           Center(
             child: Image(
               image: AssetImage(
-                'images/wt.png',
+                'images/c.png',
               ),
               height: 1200.0,
               width: 600.0,
@@ -77,6 +77,10 @@ class _climateState extends State<climate> {
     );
   }
 
+////////////////////////////////////////////
+  ///follor For more ig: @Countrol4offical
+  ///@countrolfour@gmail.com
+////////////////////////////////////////////
   Future<Map> getweather(String apiId, String city) async {
     var apiUrl =
         'http://api.openweathermap.org/data/2.5/weather?q=$city&appid=$apiId&units=imperial';
@@ -98,7 +102,7 @@ class _climateState extends State<climate> {
               children: [
                 ListTile(
                   title: Container(
-                    padding: EdgeInsets.fromLTRB(160, 80, 0, 0),
+                    padding: EdgeInsets.fromLTRB(140, 80, 0, 0),
                     child: Text(
                       ((((content!['main']['temp']) - 32) / c))
                               .toStringAsFixed(0) +
@@ -115,7 +119,7 @@ class _climateState extends State<climate> {
                 ),
                 Center(
                   child: Icon(
-                    Icons.wb_sunny,
+                    Icons.cloud,
                     size: 100,
                     color: Colors.white38,
                   ),
@@ -287,7 +291,7 @@ class _climateChangeState extends State<climateChange> {
         children: [
           new Center(
             child: Image(
-              image: AssetImage('images/wt.png'),
+              image: AssetImage('images/4.png'),
               width: 490.0,
               height: 1200.0,
               fit: BoxFit.fill,
